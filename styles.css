@@ -1,0 +1,95 @@
+/*Colors and font */
+
+h1,h2,h3 {
+	font-family: 'Ubuntu', sans-serif;;
+}
+
+h1{
+	font-weight: 1000;
+	letter-spacing: 6px;
+	text-transform: uppercase;
+	font-size: 60px;
+}
+h2 {
+	color: green;
+	font-size: 48px;
+	font-weight: 800;
+}
+body {
+	background-color:#FCF5E8;
+	font-family: 'Edu NSW ACT Foundation', cursive;
+	color: #111439;
+	text-align: justify;
+	font-size: 32px;
+}
+
+a{
+	text-decoration: none;
+	font-weight: 800
+	color: #635BFF;
+}
+a:hover{;
+	color:  yellow;
+}
+
+/* Custom design*/
+.container {
+width: 960px;
+margin: 40px auto;
+}
+
+.card-white{
+background-color: white;
+padding: 40px;
+box-shadow: 0px 10px 35px rgba(0,0,0,0.1);
+border-radius: 7px;
+margin: 20px 0px ;
+text-align: center;
+
+}
+#Img-circle{
+	border-radius: 50%;
+}
+.btn-blue{
+	background-color: #635BFF;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 30px;
+}
+.btn-blue:hover {;
+	background-color: red;
+	color: white;
+}
+.list-inLine{
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inLine li {
+	display: inline;
+}
+.list-inLine i {
+	font-size: 150px;
+	color: lightblue;
+	letter-spacing: 50px;
+}
+.list-inLine i:hover {
+	color: black;
+}
+
+@media (max-width: 960px) {
+	.container {
+		width: 700px;
+	}
+}
+
+@media (max-width: 720px) {
+	.container {
+		width: 500px;
+	}
+}
+
+@media (max-width: 540px) {
+	.container {
+		width: 300px;
+	}
+}
